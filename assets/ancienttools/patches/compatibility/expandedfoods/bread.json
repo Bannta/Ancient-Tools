@@ -1,41 +1,47 @@
 ﻿[
 	{
-		"op": "add",
-		"path": "/attributesByType/*-partbaked/mortarProperties",
-		"value": { 
+		"op": "addmerge",
+		"path": "/attributes/mortarPropertiesByType",
+		"value": {
+			"*-partbaked": { 
 			shapePath: "ancienttools:shapes/block/mortar/resourceshapes/resource_game_bread_{type}_{state}",
 			texturePaths: [{ code: "{type}partbaked", path: "game:item/food/grain/{type}bread2" }],
 			groundStack: { type: "item", code: "expandedfoods:breadcrumbs-{type}" },
 			resultQuantity: 4
+			}
 		},
 		"file": "game:itemtypes/food/bread.json",
 		"dependsOn": [{ "modid": "expandedfoods" }],
-		"side": "Server",
+		"side": "Server"
 	},
 	{
-		"op": "add",
-		"path": "/attributesByType/*-perfect/mortarProperties",
+		"op": "addmerge",
+		"path": "/attributes/mortarPropertiesByType",
 		"value": { 
+			"*-perfect": {
 			shapePath: "ancienttools:shapes/block/mortar/resourceshapes/resource_game_bread_{type}_{state}",
-			texturePaths: [{ code: "{type}partbaked", path: "game:item/food/grain/{type}bread" }],
+			texturePaths: [{ code: "{type}perfect", path: "game:item/food/grain/{type}bread" }],
 			groundStack: { type: "item", code: "expandedfoods:breadcrumbs-{type}" },
 			resultQuantity: 4
+			}
 		},
 		"file": "game:itemtypes/food/bread.json",
 		"dependsOn": [{ "modid": "expandedfoods" }],
-		"side": "Server",
+		"side": "Server"
 	},
 	{
-		"op": "add",
-		"path": "/attributesByType/*-charred/mortarProperties",
-		"value": { 
+		"op": "addmerge",
+		"path": "/attributes/mortarPropertiesByType",
+		"value": {
+			"*-charred": {
 			shapePath: "ancienttools:shapes/block/mortar/resourceshapes/resource_game_bread_{type}_{state}",
-			texturePaths: [{ code: "{type}partbaked", path: "game:item/food/grain/{type}bread1" }],
+			texturePaths: [{ code: "{type}charred", path: "game:item/food/grain/{type}bread1" }],
 			groundStack: { type: "item", code: "expandedfoods:breadcrumbs-{type}" },
 			resultQuantity: 4
+			}
 		},
 		"file": "game:itemtypes/food/bread.json",
 		"dependsOn": [{ "modid": "expandedfoods" }],
-		"side": "Server",
-	},
+		"side": "Server"
+	}
 ]
