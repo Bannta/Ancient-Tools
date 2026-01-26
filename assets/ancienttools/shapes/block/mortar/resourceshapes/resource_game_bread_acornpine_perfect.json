@@ -19,12 +19,12 @@
 			"rotationY": 45.0,
 			"rotationZ": 22.5,
 			"faces": {
-				"north": { "texture": "#acornpinebreadperfect", "uv": [ 2.0, 6.0, 5.0, 8.0 ] },
-				"east": { "texture": "#acornpinebreadperfect", "uv": [ 0.0, 6.0, 6.0, 8.0 ] },
-				"south": { "texture": "#acornpinebreadperfect", "uv": [ 0.5, 6.0, 3.5, 8.0 ] },
-				"west": { "texture": "#acornpinebreadperfect", "uv": [ 0.0, 6.0, 6.0, 8.0 ] },
-				"up": { "texture": "#acornpinebreadperfect", "uv": [ 0.5, 1.0, 3.5, 7.0 ] },
-				"down": { "texture": "#acornpinebreadperfect", "uv": [ 4.0, 0.0, 7.0, 6.0 ] }
+				"north": { "texture": "#acornpineperfect", "uv": [ 2.0, 6.0, 5.0, 8.0 ] },
+				"east": { "texture": "#acornpineperfect", "uv": [ 0.0, 6.0, 6.0, 8.0 ] },
+				"south": { "texture": "#acornpineperfect", "uv": [ 0.5, 6.0, 3.5, 8.0 ] },
+				"west": { "texture": "#acornpineperfect", "uv": [ 0.0, 6.0, 6.0, 8.0 ] },
+				"up": { "texture": "#acornpineperfect", "uv": [ 0.5, 1.0, 3.5, 7.0 ] },
+				"down": { "texture": "#acornpineperfect", "uv": [ 4.0, 0.0, 7.0, 6.0 ] }
 			},
 			"children": [
 				{
@@ -32,12 +32,12 @@
 					"from": [ 0.5, 2.0, 0.5 ], 
 					"to": [ 2.5, 2.5, 5.5 ], 
 					"faces": {
-						"north": { "texture": "#acornpinebreadperfect", "uv": [ 1.0, 1.5, 3.0, 2.0 ] },
-						"east": { "texture": "#acornpinebreadperfect", "uv": [ 0.5, 1.0, 1.0, 6.0 ], "rotation": 90 },
-						"south": { "texture": "#acornpinebreadperfect", "uv": [ 1.0, 5.5, 3.0, 6.0 ] },
-						"west": { "texture": "#acornpinebreadperfect", "uv": [ 3.5, 1.0, 4.0, 6.0 ], "rotation": 90 },
-						"up": { "texture": "#acornpinebreadperfect", "uv": [ 1.0, 1.0, 3.0, 6.0 ] },
-						"down": { "texture": "#acornpinebreadperfect", "uv": [ 5.0, 2.0, 7.0, 7.0 ], "enabled": false }
+						"north": { "texture": "#acornpineperfect", "uv": [ 1.0, 1.5, 3.0, 2.0 ] },
+						"east": { "texture": "#acornpineperfect", "uv": [ 0.5, 1.0, 1.0, 6.0 ], "rotation": 90 },
+						"south": { "texture": "#acornpineperfect", "uv": [ 1.0, 5.5, 3.0, 6.0 ] },
+						"west": { "texture": "#acornpineperfect", "uv": [ 3.5, 1.0, 4.0, 6.0 ], "rotation": 90 },
+						"up": { "texture": "#acornpineperfect", "uv": [ 1.0, 1.0, 3.0, 6.0 ] },
+						"down": { "texture": "#acornpineperfect", "uv": [ 5.0, 2.0, 7.0, 7.0 ], "enabled": false }
 					}
 				}
 			]

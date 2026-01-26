@@ -43,5 +43,62 @@
 		"file": "game:itemtypes/food/bread.json",
 		"dependsOn": [{ "modid": "expandedfoods" }],
 		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributesByType/*-partbaked/mortarProperties",
+		"value": {
+			shapePath: "ancienttools:shapes/block/mortar/resourceshapes/resource_game_bread_{type}_{state}",
+			texturePaths: [{ code: "{type}partbaked", path: "ancienttools:item/food/grain/{type}bread2" }],
+			groundStack: { type: "item", code: "expandedfoods:breadcrumbs-{type}" },
+			resultQuantity: 1
+		},
+		"file": "ancienttools:itemtypes/food/barkbread.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributesByType/*-perfect/mortarProperties",
+		"value": { 
+			shapePath: "ancienttools:shapes/block/mortar/resourceshapes/resource_game_bread_{type}_{state}",
+			texturePaths: [{ code: "{type}perfect", path: "ancienttools:item/food/grain/{type}bread" }],
+			groundStack: { type: "item", code: "expandedfoods:breadcrumbs-{type}" },
+			resultQuantity: 1
+		},
+		"file": "ancienttools:itemtypes/food/barkbread.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributesByType/*-charred/mortarProperties",
+		"value": {
+			shapePath: "ancienttools:shapes/block/mortar/resourceshapes/resource_game_bread_{type}_{state}",
+			texturePaths: [{ code: "{type}charred", path: "ancienttools:item/food/grain/{type}bread1" }],
+			groundStack: { type: "item", code: "expandedfoods:breadcrumbs-{type}" },
+			resultQuantity: 1
+		},
+		"file": "ancienttools:itemtypes/food/barkbread.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/grindingPropsByType",
+		"value": {
+			"*-birch-*": {
+				groundStack: { type: "item", code: "expandedfoods:breadcrumbs-{type}", "quantity": 1 }
+			},
+			"*-pine-*": {
+				groundStack: { type: "item", code: "expandedfoods:breadcrumbs-{type}", "quantity": 1 }
+			},
+			"*-maple-*": {
+				groundStack: { type: "item", code: "expandedfoods:breadcrumbs-{type}", "quantity": 1 }
+			}
+		},
+		"file": "ancienttools:itemtypes/food/barkbread.json",
+		"dependsOn": [{ "modid": "expandedfoods" }],
+		"side": "Server"
 	}
 ]

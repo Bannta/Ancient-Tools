@@ -6,6 +6,7 @@
 	"textureWidth": 32,
 	"textureHeight": 32,
 	"textureSizes": {
+		"headband": [32,32]
 	},
 	"textures": {
 	},

@@ -71,5 +71,23 @@
 			{ type: "item", code: "game:hide-salted-huge", quantity: 1 }
 		],
 		output: { type: "item", code: "game:hide-soaked-huge", stackSize: 1}
+	},
+	{
+		code: "soakedhidebarkash",
+		sealHours: 20,
+		ingredients: [
+			{ type: "item", code: "barkashsolution", litres: 10, consumeLitres: 10 },
+			{ type: "item", code: "game:hide-raw-bear-*-complete", "name": "bear", quantity: 1 }
+		],
+		output: { type: "item", code: "game:hide-soaked-bear-{bear}-complete", stackSize: 1}
+	},
+	{
+		code: "soakedhidebarkash",
+		sealHours: 20,
+		ingredients: [
+			{ type: "item", code: "barkashsolution", litres: 10, consumeLitres: 10 },
+			{ type: "item", code: "game:hide-salted-bear-*-complete", "name": "bear", quantity: 1 }
+		],
+		output: { type: "item", code: "game:hide-soaked-bear-{bear}-complete", stackSize: 1}
 	}
 ]

@@ -18,12 +18,12 @@
 			"rotationX": 27.5,
 			"rotationY": -22.5,
 			"faces": {
-				"north": { "texture": "#pinebreadpartbaked", "uv": [ 0.5, 6.0, 4.0, 7.5 ] },
-				"east": { "texture": "#pinebreadpartbaked", "uv": [ 0.0, 6.5, 5.0, 8.0 ] },
-				"south": { "texture": "#pinebreadpartbaked", "uv": [ 1.0, 5.5, 4.5, 7.0 ] },
-				"west": { "texture": "#pinebreadpartbaked", "uv": [ 0.0, 6.0, 5.0, 7.5 ] },
-				"up": { "texture": "#pinebreadpartbaked", "uv": [ 0.5, 1.5, 4.0, 6.5 ] },
-				"down": { "texture": "#pinebreadpartbaked", "uv": [ 4.5, 0.0, 8.0, 5.0 ] }
+				"north": { "texture": "#pinepartbaked", "uv": [ 0.5, 6.0, 4.0, 7.5 ] },
+				"east": { "texture": "#pinepartbaked", "uv": [ 0.0, 6.5, 5.0, 8.0 ] },
+				"south": { "texture": "#pinepartbaked", "uv": [ 1.0, 5.5, 4.5, 7.0 ] },
+				"west": { "texture": "#pinepartbaked", "uv": [ 0.0, 6.0, 5.0, 7.5 ] },
+				"up": { "texture": "#pinepartbaked", "uv": [ 0.5, 1.5, 4.0, 6.5 ] },
+				"down": { "texture": "#pinepartbaked", "uv": [ 4.5, 0.0, 8.0, 5.0 ] }
 			},
 			"children": [
 				{
@@ -31,12 +31,12 @@
 					"from": [ 0.5, 1.5, 0.5 ], 
 					"to": [ 3.0, 2.0, 4.5 ], 
 					"faces": {
-						"north": { "texture": "#pinebreadpartbaked", "uv": [ 1.0, 1.5, 3.5, 2.0 ] },
-						"east": { "texture": "#pinebreadpartbaked", "uv": [ 0.5, 2.0, 1.0, 6.0 ], "rotation": 90 },
-						"south": { "texture": "#pinebreadpartbaked", "uv": [ 2.0, 6.5, 4.5, 7.0 ] },
-						"west": { "texture": "#pinebreadpartbaked", "uv": [ 3.5, 2.0, 4.0, 6.0 ], "rotation": 90 },
-						"up": { "texture": "#pinebreadpartbaked", "uv": [ 1.0, 2.0, 3.5, 6.0 ] },
-						"down": { "texture": "#pinebreadpartbaked", "uv": [ 5.0, 2.0, 7.5, 6.0 ], "enabled": false }
+						"north": { "texture": "#pinepartbaked", "uv": [ 1.0, 1.5, 3.5, 2.0 ] },
+						"east": { "texture": "#pinepartbaked", "uv": [ 0.5, 2.0, 1.0, 6.0 ], "rotation": 90 },
+						"south": { "texture": "#pinepartbaked", "uv": [ 2.0, 6.5, 4.5, 7.0 ] },
+						"west": { "texture": "#pinepartbaked", "uv": [ 3.5, 2.0, 4.0, 6.0 ], "rotation": 90 },
+						"up": { "texture": "#pinepartbaked", "uv": [ 1.0, 2.0, 3.5, 6.0 ] },
+						"down": { "texture": "#pinepartbaked", "uv": [ 5.0, 2.0, 7.5, 6.0 ], "enabled": false }
 					}
 				}
 			]

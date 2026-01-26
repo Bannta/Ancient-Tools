@@ -116,6 +116,29 @@
 [Version 1.0.0](https://github.com/TaskaRaine/Ancient-Tools/releases/download/1.0.0/AncientTools_V1.0.0.zip)
 
 ### Change Log
+#### Version 1.6.1
+Buckskin Headband, Buckskin Gloves, Coonskin Cap, and fur-lined variants of moccassins and gloves have been implemented.
+
+Added recipes that allow raw and salted bear hides to be soaked in a barrel with bark ash solution.
+
+Added Kapok to the list of allowed log barrel variants.
+
+Fixed a crash that occurred when stripping with the adze. Null check was against the wrong set of attributes.
+
+Fixed an issue where the mortor(and potentially other DisplayInventory objects) would briefly flash with an unknown texture and would report a texture not found.
+
+A warning is now thrown when AutoConfigLib is detected and the Ancient Tools config system is not run.
+
+Breads should now be grindable in the mortar into breadcrumbs when Expanded Foods is installed. Thanks Whiskey Sunshine!
+
+Added additional patches to Whiskey Sunshine's file changes that allows bark breads to be made into Expanded Foods breadcrumbs.
+
+Added grinding props that correlate to the mortar props added for bark breads.
+
+Adjusted bark bread mortar shape texture references to match vanilla bread mortar shape texture references. 
+
+Updated the Russian lang file. Thanks BalaurGD!
+
 #### Version 1.6.0
 Added some networking/packet handling when clients join the server for config parity. HOPEFULLY this solves the common crash with Utility.ModConfig.ReadConfig()
 
