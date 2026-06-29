@@ -1,17 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
+	<LangVersion>latest</LangVersion>
     <OutputType>Library</OutputType>
+    <AssemblyName>ancienttools</AssemblyName>
+    <RootNamespace>ancienttools</RootNamespace>
+	<Version>1.22.3</Version>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>$(ProjectDir)\Projects\VintageStory\Mods\Debug\ancienttools</OutputPath>
-    <IntermediateOutputPath>..\..\obj\Debug\ancienttools\</IntermediateOutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>$(ProjectDir)\Projects\VintageStory\Debug\ancienttools</OutputPath>
-    <IntermediateOutputPath>..\..\obj\Release\ancienttools\</IntermediateOutputPath>
+    <OutputPath>C:\Users\Bannta\AppData\Roaming\VSLInstallations\TESTING-1.22\Mods\ancienttools-2.0.0\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="protobuf-net">
@@ -43,7 +39,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
   <ItemGroup>
