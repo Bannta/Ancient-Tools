@@ -1,6 +1,8 @@
 ﻿{
     code: "buckskinheadband",
-	class: "ItemWearable",
+	behaviors: [
+        { "name": "Wearable" }
+    ],
 	"attributes": {
 		clothescategory: "head",
 		wearableAttachment: true,

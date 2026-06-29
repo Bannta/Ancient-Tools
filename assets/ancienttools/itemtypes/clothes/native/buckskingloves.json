@@ -1,6 +1,8 @@
 ﻿{
     code: "buckskingloves",
-	class: "ItemWearable",
+	behaviors: [
+        { "name": "Wearable" }
+    ],
 	"attributes": {
 		clothescategory: "hand",
 		wearableAttachment: true,

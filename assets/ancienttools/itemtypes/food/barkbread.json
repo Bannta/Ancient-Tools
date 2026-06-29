@@ -18,11 +18,11 @@
 		"*-charred": { "bread": {base: "ancienttools:item/food/grain/{type}bread1" }}
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "ancienttools": ["*"] },
-	attributesByType: {
-		"*-partbaked": {
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
+	attributes: {
+		displaycaseable: true,
+		shelvable: true,
+		bakingPropertiesByType: {
+			"*-partbaked": {
 				temp: 160,
 				levelFrom: 0.25,
 				levelTo: 0.5,
@@ -30,12 +30,8 @@
 				endScaleY: 1.10,
 				resultCode: "ancienttools:barkbread-{type}-perfect",
 				initialCode: "ancienttools:barkdough-{type}"
-			}
-		},
-		"*-perfect": {
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
+			},
+			"*-perfect": {
 				temp: 160,
 				levelFrom: 0.5,
 				levelTo: 0.75,
@@ -43,12 +39,8 @@
 				endScaleY: 1.13,
 				resultCode: "ancienttools:barkbread-{type}-charred",
 				initialCode: "ancienttools:barkbread-{type}-partbaked"
-			}
-		},
-		"*-charred": {
-			displaycaseable: true,
-			shelvable: true,
-			bakingProperties: {
+			},
+			"*-charred": {
 				temp: 160,
 				levelFrom: 0.75,
 				levelTo: 1,
