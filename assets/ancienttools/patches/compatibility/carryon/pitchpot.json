@@ -1,7 +1,7 @@
 ﻿[
 	{
 		"op": "add",
-		"path": "/behaviorsByType/@pitchpot-(blue|fire|black|brown|cream|gray|orange|red|tan)-(unmixed|unmixedresiduecovered)/-",
+		"path": "/behaviorsByType/@pitchpot-(blue|fire|black|brown|cream|earthyorange|gray|orange|red|tan)-(unmixed|unmixedresiduecovered)/-",
 		"value": {
 			name: "Carryable", properties: {
 
@@ -25,7 +25,7 @@
 	},
 	{
 		"op": "add",
-		"path": "/behaviorsByType/@pitchpot-(blue|fire|black|brown|cream|gray|orange|red|tan)-(empty|finishedpitch)/-",
+		"path": "/behaviorsByType/@pitchpot-(blue|fire|black|brown|cream|earthyorange|gray|orange|red|tan)-(empty|finishedpitch)/-",
 		"value": {
 			name: "Carryable", properties: {
 
