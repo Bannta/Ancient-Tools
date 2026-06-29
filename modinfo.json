@@ -3,10 +3,10 @@
   "modid": "ancienttools",
   "name": "Ancient Tools",
   "authors": ["Taska Raine"],
-  "contributors": ["NerdScurvy", "weathersong", "Tarot", "Cendar", "Macoto Hino", "Vulpeep", "DonBitcoin", "MrMeg", "Whiskey Sunshine", "BalaurGD" ],
+  "contributors": ["NerdScurvy", "weathersong", "Tarot", "Cendar", "Macoto Hino", "Vulpeep", "DonBitcoin", "MrMeg", "Whiskey Sunshine", "BalaurGD", "Bannta" ],
   "description": "A collection of useful tools from ancient times.",
-  "version": "1.6.1",
+  "version": "2.0.0",
   "dependencies": {
-    "game": "1.21.0"
+    "game": "1.22.0"
   }
 }
