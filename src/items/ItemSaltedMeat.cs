@@ -9,7 +9,8 @@ namespace AncientTools.Items
 {
     class ItemSaltedMeat: Item
     {
-        public override void OnCreatedByCrafting(ItemSlot[] allInputslots, ItemSlot outputSlot, GridRecipe byRecipe)
+        // Changed "GridRecipe" to "IRecipeBase" to match the updated Vintage Story API
+        public override void OnCreatedByCrafting(ItemSlot[] allInputslots, ItemSlot outputSlot, IRecipeBase byRecipe)
         {
             base.OnCreatedByCrafting(allInputslots, outputSlot, byRecipe);
 

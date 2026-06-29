@@ -158,7 +158,8 @@ namespace AncientTools.Utility
 
             if (dynBlock != null)
             {
-                mesh = dynBlock.GenMesh(stack, Capi.BlockTextureAtlas, Pos);
+                // Wrapped the stack in a DummySlot to match the updated API requirement
+                mesh = dynBlock.GenMesh(new DummySlot(stack), Capi.BlockTextureAtlas, Pos);
                 mesh.Rotate(new Vec3f(0.5f, 0.5f, 0.5f), 0, Block.Shape.rotateY * GameMath.DEG2RAD, 0);
             }
             else
@@ -180,16 +181,15 @@ namespace AncientTools.Utility
                 }
             }
 
-            //-- A critical texture exception was caught and all textures on the inventory shape were changed to Vintage Story's 'unknown' texture to demonstrate the issue --//
+            //-- A critical texture exception was caught and all textures on the inventory shape were changed to Vintage Story's 'unknown' texture to demonstrate the issue --// 
             if (UnknownTextureDetected)
             {
                 Capi.Logger.Debug(Lang.Get("ancienttools:debug-displayinventory-texturenotfound"));
-
                 UnknownTextureDetected = false;
             }
-
             return mesh;
         }
+
         public void AddMesh(ITerrainMeshPool mesher, MeshData mesh)
         {
             if (mesh == null)

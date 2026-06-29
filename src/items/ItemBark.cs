@@ -4,7 +4,8 @@ namespace AncientTools.Items
 {
     class ItemBark: Item
     {
-        public override void OnCreatedByCrafting(ItemSlot[] allInputslots, ItemSlot outputSlot, GridRecipe byRecipe)
+        // Changed "GridRecipe" to "IRecipeBase" to match the updated Vintage Story API
+        public override void OnCreatedByCrafting(ItemSlot[] allInputslots, ItemSlot outputSlot, IRecipeBase byRecipe)
         {
             outputSlot.Itemstack.StackSize = api.World.Config.GetInt("BarkPerLog", 4);
 

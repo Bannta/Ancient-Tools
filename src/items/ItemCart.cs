@@ -26,9 +26,9 @@ namespace AncientTools.Items
             entity.WatchedAttributes.SetString("creatoruid", player.PlayerUID);
             entity.WatchedAttributes.MarkAllDirty();
 
-            entity.ServerPos.SetPos(spawnPos);
+            entity.Pos.SetPos(spawnPos);
 
-            entity.Pos.SetFrom(entity.ServerPos);
+            entity.Pos.SetFrom(entity.Pos);
 
             api.World.SpawnEntity(entity);
 

@@ -234,31 +234,28 @@ namespace AncientTools.Gui
         }
 
 
-        public EnumPosFlag GetFreePos(string code)
+        public new EnumPosFlag GetFreePos(string code)
         {
             var values = Enum.GetValues(typeof(EnumPosFlag));
-
             int flags = 0;
             posFlagDict().TryGetValue(code, out flags);
 
             foreach (EnumPosFlag flag in values)
             {
                 if ((flags & (int)flag) > 0) continue;
-
                 return flag;
             }
-
             return 0;
         }
 
-        public void OccupyPos(string code, EnumPosFlag pos)
+        public new void OccupyPos(string code, EnumPosFlag pos)
         {
             int flags = 0;
             posFlagDict().TryGetValue(code, out flags);
             posFlagDict()[code] = flags | (int)pos;
         }
 
-        public void FreePos(string code, EnumPosFlag pos)
+        public new void FreePos(string code, EnumPosFlag pos)
         {
             int flags = 0;
             posFlagDict().TryGetValue(code, out flags);
@@ -274,12 +271,12 @@ namespace AncientTools.Gui
             return val;
         }
 
-        protected bool IsRight(EnumPosFlag flag)
+        protected new bool IsRight(EnumPosFlag flag)
         {
             return flag == EnumPosFlag.RightBot || flag == EnumPosFlag.RightMid || flag == EnumPosFlag.RightTop;
         }
 
-        protected float YOffsetMul(EnumPosFlag flag)
+        protected new float YOffsetMul(EnumPosFlag flag)
         {
             if (flag == EnumPosFlag.RightTop || flag == EnumPosFlag.LeftTop) return -1;
             if (flag == EnumPosFlag.RightBot || flag == EnumPosFlag.LeftBot) return 1;
